@@ -97,7 +97,7 @@ button:focus {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 6px;
 }
 
 .inc-dec-btn-container {
