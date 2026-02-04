@@ -2,16 +2,24 @@
 
 /* General */
 
+html,
 body {
   font-family: 'Roboto Mono', monospace;
-  background: transparent;
- // background-color: #c2e6e8;
+  background-color: #f6efe5 !important;
+  height: 100%;
 }
 
 #root {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 button,
@@ -38,19 +46,19 @@ button:focus {
 
 .clock-container {
   background-color: rgb(240, 240, 190); 
-  width: 350px;
+  width: min(100%, 350px);
   border-radius: 20px;
-  padding: 30px;
+  padding: clamp(16px, 4vw, 30px);
   box-shadow: 10px 10px sienna;
 }
 
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
-  font-size: 70px;
+  font-size: clamp(42px, 10vw, 70px);
   text-align: center;
   background-color: rgb(150,180,175);
-  padding: 20px;
+  padding: clamp(12px, 3vw, 20px);
   border-radius: 20px;
   box-shadow: 3px 3px rgb(121, 145, 141) inset;
 }
@@ -61,10 +69,11 @@ button:focus {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
 }
 
 #timer-label {
-  font-size: 25px;
+  font-size: clamp(18px, 4.5vw, 25px);
   text-align: center;
   padding-top: 2px;
   background-color: rgb(150,180,175);
@@ -88,6 +97,7 @@ button:focus {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
+  gap: 12px;
 }
 
 .inc-dec-btn-container {
@@ -110,10 +120,35 @@ button:focus {
 }
 
 .timer-length {
-  font-size: 2em;
+  font-size: clamp(1.4em, 4vw, 2em);
 }
 
 .break-container,
 .inc-arrow {
   margin-right: 12px;
+}
+
+@media (max-width: 420px) {
+  #timer-ssr {
+    margin-left: 0;
+  }
+
+  #display-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #timer-label {
+    height: auto;
+    padding: 6px 8px;
+  }
+
+  .length-container {
+    flex-direction: column;
+  }
+
+  .break-container,
+  .session-container {
+    width: 100%;
+  }
 }

@@ -1,13 +1,10 @@
-import React from "https://cdn.skypack.dev/react@17.0.1";
-import ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.1";
-
 (function(){
   function setBodyBackground(){
     try{
       const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      document.body.style.background = isDark ? '#191919' : '#ffffff';
+      document.body.style.background = isDark ? '#2d2a2e' : '#f6efe5';
     } catch(e) {
-      document.body.style.background = '#ffffff';
+      document.body.style.background = '#f6efe5';
     }
   }
   if(window.matchMedia){
@@ -246,8 +243,7 @@ class SetTimerLength extends React.Component {
           this.buttonRefDec.current.blur();
         } }, /*#__PURE__*/
 
-      React.createElement("i", { id: this.props.decTimerId, className: "fa fa-arrow-down" })))));
-
+      React.createElement("i", { id: this.props.decTimerId, className: "fa fa-arrow-down" }))))) ;
 
 
 
@@ -295,4 +291,4 @@ class Timer extends React.Component {
   }}
 
 
-ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("root"));
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("root"));ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("root"));
