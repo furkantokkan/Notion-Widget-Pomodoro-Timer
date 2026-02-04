@@ -95,7 +95,7 @@ button:focus {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 8px;
 }
 
 .inc-dec-btn-container {
@@ -114,7 +114,7 @@ button:focus {
   border: 2px solid rgb(234,178,156);
   padding: 10px;
   border-radius: 10px;
-  width: 48%;
+  width: 49.5%;
   box-sizing: border-box;
 }
 
