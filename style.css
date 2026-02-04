@@ -3,22 +3,17 @@
 :root {
   color-scheme: light dark;
   --notion-bg: #ffffff;
-  --notion-fg: #2f3437;
-  --notion-border: #e6e6e6;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --notion-bg: #191919;
-    --notion-fg: #e6e6e6;
-    --notion-border: #333333;
   }
 }
 
 html,
 body {
   background-color: var(--notion-bg);
-  color: var(--notion-fg);
 }
 
 body * {
