@@ -60,3 +60,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - Inspired by the Pomodoro Technique, which encourages focused work sessions followed by short breaks.
+- **Original repository**: [Notion Widgets by ShoroukAziz](https://github.com/ShoroukAziz/notion_widgets)  
+  - **Creator**: ShoroukAziz
+  - **Changes Made**: This version includes changes and improvements for better responsiveness and theme support.
