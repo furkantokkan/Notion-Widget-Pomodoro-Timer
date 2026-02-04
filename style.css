@@ -85,8 +85,9 @@ button:focus {
   flex: 1;
   margin-left: 30px;
   display: flex;
-  justify-content: space-between;
-  flex-start: end;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
 }
 
 /* Timer Length Controls */
@@ -103,8 +104,10 @@ button:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 12px;
   width: 140px;
-  height:60px;
+  height: 60px;
 }
 
 .break-container, 
@@ -120,10 +123,6 @@ button:focus {
 
 .timer-length {
   font-size: 2em;
-}
-
-.inc-arrow {
-  margin-right: 12px;
 }
 
 /* Responsive Design */
