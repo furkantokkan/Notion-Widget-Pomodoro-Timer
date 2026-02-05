@@ -7,6 +7,7 @@ A Pomodoro timer designed for seamless integration into Notion. This widget allo
 - **Responsive Design**: Optimized for both desktop and mobile views, adapting perfectly to various screen sizes.
 - **Light & Dark Mode**: Automatically adjusts to match the user's system theme (light or dark mode).
 - **Customizable Timings**: Allows you to set custom session lengths and break lengths.
+- **Theme Support**: You can set three different themes.
 - **Simple and Intuitive**: The user interface is clean and easy to interact with, making it a great productivity tool.
 
 ## Installation
@@ -35,13 +36,16 @@ A Pomodoro timer designed for seamless integration into Notion. This widget allo
 ## Screenshots
 
 ### Responsive Layout Example  
-![Responsive Layout Example](https://github.com/user-attachments/assets/3fb5ecb9-0184-4e7d-9251-d1936c75daa8)
+![Responsive Layout Example](https://github.com/user-attachments/assets/2ffaf317-5920-4226-b94f-5218441d2f31)
 
 ### Dark Mode Layout  
-![Dark Mode Layout](https://github.com/user-attachments/assets/2953c1f6-99fd-4970-9a39-6dd0c4066327)
+![Dark Mode Layout](https://github.com/user-attachments/assets/ee232316-eab7-4ae5-8b9e-a616303c9bc0)
 
 ### Light Mode Layout  
-![Light Mode Layout](https://github.com/user-attachments/assets/e4d77542-e776-49cc-a399-8c0e2d82ffff)
+![Light Mode Layout](https://github.com/user-attachments/assets/89262a37-12b2-43e9-8e07-b8c1ed6809e9)
+
+### Lofi Mode Layout  
+![Lofi Mode Layout](https://github.com/user-attachments/assets/2fec5aaf-c8f9-4050-b01e-abf492d04b70)
 
 ## Technologies Used
 
@@ -61,5 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by the Pomodoro Technique, which encourages focused work sessions followed by short breaks.
 - **Original repository**: [Notion Widgets by ShoroukAziz](https://github.com/ShoroukAziz/notion_widgets)  
-  - **Creator**: ShoroukAziz
   - **Changes Made**: This version includes changes and improvements for better responsiveness and theme support.
